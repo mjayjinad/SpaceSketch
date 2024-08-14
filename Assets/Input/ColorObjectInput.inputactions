@@ -1,0 +1,34 @@
+{
+    "name": "ResetObjectPosition",
+    "maps": [
+        {
+            "name": "ColorObject",
+            "id": "52c2a04e-ca34-4dfa-9f1f-4e5329c85694",
+            "actions": [
+                {
+                    "name": "ColorObjectAction",
+                    "type": "Button",
+                    "id": "4a9ddb06-e865-4ca4-86ad-0d86e8e65cd1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1afd987a-a082-479a-b212-189ae9921f5e",
+                    "path": "<OculusTouchController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ColorObjectAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

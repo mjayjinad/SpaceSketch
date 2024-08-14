@@ -1,0 +1,34 @@
+{
+    "name": "MenuAction",
+    "maps": [
+        {
+            "name": "MenuAction",
+            "id": "42e7ebf6-2537-490c-aa3b-220323a01583",
+            "actions": [
+                {
+                    "name": "MenuAction",
+                    "type": "Button",
+                    "id": "2957dc76-fc9e-41e3-af68-fd9e9cba5fcb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "632d8108-5788-41f4-9088-32a0de52fa48",
+                    "path": "<XRController>{LeftHand}/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

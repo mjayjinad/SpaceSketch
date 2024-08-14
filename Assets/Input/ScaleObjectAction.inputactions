@@ -1,0 +1,34 @@
+{
+    "name": "ScaleObjectAction",
+    "maps": [
+        {
+            "name": "ScaleObject",
+            "id": "e98d9779-d97d-4f80-ac69-ddd73a338be5",
+            "actions": [
+                {
+                    "name": "ScaleObjectActionInput",
+                    "type": "Button",
+                    "id": "9fa29464-4be5-4d27-9a4e-ee554a365abb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4224d7c0-9ea1-4847-aa8b-001e9a016a7f",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScaleObjectActionInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

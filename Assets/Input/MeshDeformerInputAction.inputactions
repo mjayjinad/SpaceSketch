@@ -1,0 +1,34 @@
+{
+    "name": "MeshDeformerInputAction",
+    "maps": [
+        {
+            "name": "MeshDeformer",
+            "id": "c8426a58-d81f-4676-960e-38ba76a43691",
+            "actions": [
+                {
+                    "name": "DeformerAction",
+                    "type": "Button",
+                    "id": "d868d3a4-797e-4126-a985-b5fa0ecebcd0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cbdd7342-5c7c-4e17-b864-69b904d7d76f",
+                    "path": "<OculusTouchController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeformerAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

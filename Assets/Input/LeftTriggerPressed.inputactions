@@ -1,0 +1,34 @@
+{
+    "name": "LeftTriggerPressed",
+    "maps": [
+        {
+            "name": "TriggerPressed",
+            "id": "0ed33c77-e2c2-4629-94a3-f8514c9e8099",
+            "actions": [
+                {
+                    "name": "TriggerPressAction",
+                    "type": "Button",
+                    "id": "6803f968-5e71-4551-bc89-f395e8f58641",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ecddafe6-cdae-410f-9889-5ce791efb3e0",
+                    "path": "<OculusTouchController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

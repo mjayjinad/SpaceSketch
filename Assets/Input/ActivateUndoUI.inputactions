@@ -1,0 +1,34 @@
+{
+    "name": "ActivateUndoUI",
+    "maps": [
+        {
+            "name": "ActivateUI",
+            "id": "21f13158-2ee8-4a12-842c-0e00dd08927d",
+            "actions": [
+                {
+                    "name": "HistoryUIAction",
+                    "type": "Button",
+                    "id": "5b61ed53-ca38-471a-90c2-967914676524",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "de132f33-ce6a-43e5-86b0-89d52240eaf0",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HistoryUIAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

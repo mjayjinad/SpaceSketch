@@ -1,0 +1,34 @@
+{
+    "name": "DisableMultiSelect",
+    "maps": [
+        {
+            "name": "DuplicateObject",
+            "id": "865b4d22-d955-4ab1-aa46-9dacac04739b",
+            "actions": [
+                {
+                    "name": "DuplicateObjectAction",
+                    "type": "Button",
+                    "id": "916bc803-a178-467f-9735-c05a5f0c9b47",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d911f377-f585-42b3-a47e-4038b0142f6a",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DuplicateObjectAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

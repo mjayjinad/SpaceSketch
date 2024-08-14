@@ -1,0 +1,34 @@
+{
+    "name": "DeleteObjectAction",
+    "maps": [
+        {
+            "name": "DeleteObject",
+            "id": "8b974acf-e520-4176-afb5-1302a1444d74",
+            "actions": [
+                {
+                    "name": "DeleteObjectAction",
+                    "type": "Button",
+                    "id": "bcc44922-3abd-464a-b32e-7674479dee98",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "26594345-f303-4680-a78b-4736f759a0d6",
+                    "path": "<OculusTouchController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeleteObjectAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

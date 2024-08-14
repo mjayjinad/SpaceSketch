@@ -1,0 +1,34 @@
+{
+    "name": "SetShapeObject",
+    "maps": [
+        {
+            "name": "Set Shape",
+            "id": "32f50140-16fa-4c0c-8fe0-544d7dc3c611",
+            "actions": [
+                {
+                    "name": "Set Shape Action",
+                    "type": "Value",
+                    "id": "a9d99d15-2a62-4c4e-8ba6-295b9e494a0a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "406dbac0-2d58-46eb-bd8b-fa4b0e320d8b",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Set Shape Action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,34 @@
+{
+    "name": "LeftGripPressed",
+    "maps": [
+        {
+            "name": "GripPressed",
+            "id": "9f7699ad-2ace-4f4b-873b-6603408567f8",
+            "actions": [
+                {
+                    "name": "GripPressedAction",
+                    "type": "Button",
+                    "id": "a20305ba-8954-4598-9af1-d99a35158525",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "744689aa-d4b6-4090-9517-3b26f0b9813b",
+                    "path": "<OculusTouchController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GripPressedAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,34 @@
+{
+    "name": "ScaleAxisInput",
+    "maps": [
+        {
+            "name": "ScaleAxis",
+            "id": "793af945-c2c6-4531-b4c3-1b226e2b568f",
+            "actions": [
+                {
+                    "name": "ScaleAxisAction",
+                    "type": "Button",
+                    "id": "3e7211a6-6573-4f11-a0b8-da96d4456a6d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ac1dc0e0-d624-43eb-82e2-88fc5bbdafb0",
+                    "path": "<OculusTouchController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScaleAxisAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

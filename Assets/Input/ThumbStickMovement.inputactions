@@ -1,0 +1,34 @@
+{
+    "name": "ThumbStickMovement",
+    "maps": [
+        {
+            "name": "Undo/Redo",
+            "id": "3e254c7f-bdb4-4fc0-9005-883f7cf166ce",
+            "actions": [
+                {
+                    "name": "Undo/Redo Action",
+                    "type": "Value",
+                    "id": "64dc5a4b-fae8-44c6-932b-1b3d7e0edb39",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ab1e41f7-f650-41ca-b390-ef3ea7f9ef5f",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Undo/Redo Action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

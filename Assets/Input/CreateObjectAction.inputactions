@@ -1,0 +1,34 @@
+{
+    "name": "CreateObjectAction",
+    "maps": [
+        {
+            "name": "CreateObject",
+            "id": "7afcc38d-298d-409e-b16e-8277c5c84313",
+            "actions": [
+                {
+                    "name": "CreateObjectActionInput",
+                    "type": "Button",
+                    "id": "2f9101b3-9f56-481f-ac0d-17f354556432",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d1a8bd15-5a2f-49cb-b5a8-a63c8b299cf4",
+                    "path": "<OculusTouchController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CreateObjectActionInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

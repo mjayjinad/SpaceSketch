@@ -1,0 +1,34 @@
+{
+    "name": "DocumentationAction",
+    "maps": [
+        {
+            "name": "DocumentationAction",
+            "id": "8dab0035-a682-4417-94ab-f0932ad34b32",
+            "actions": [
+                {
+                    "name": "DocumentationAction",
+                    "type": "Button",
+                    "id": "377e5039-9620-4bef-a8e9-189b0bc7c759",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "68069ad8-b0e8-4790-8812-7250b7707196",
+                    "path": "<XRController>{LeftHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DocumentationAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
