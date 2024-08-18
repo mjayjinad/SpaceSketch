@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace xrc_assignments_project_g05.Scripts.System_Control
+namespace SpaceSketch.Scripts.System_Control
 {
     public class ShapeFeedback : MonoBehaviour
     {
         [SerializeField] private GameObject menuCanvas; // Reference to the menu canvas
         [SerializeField] private MeshRenderer cubeIcon;
         [SerializeField] private MeshRenderer sphereIcon;
-        [SerializeField] private MeshRenderer capsuleIcon;
         [SerializeField] private MeshRenderer cylinderIcon;
+        [SerializeField] private MeshRenderer capsuleIcon;
 
         [SerializeField] private Color defaultColor = Color.white;
         [SerializeField] private Color tintColor = Color.yellow;
@@ -35,8 +35,8 @@ namespace xrc_assignments_project_g05.Scripts.System_Control
             // Reset all highlights
             cubeIcon.material.color = defaultColor;
             sphereIcon.material.color = defaultColor;
-            capsuleIcon.material.color = defaultColor;
             cylinderIcon.material.color = defaultColor;
+            capsuleIcon.material.color = defaultColor;
 
             // Highlight the selected shape
             switch (shape)
@@ -47,11 +47,11 @@ namespace xrc_assignments_project_g05.Scripts.System_Control
                 case ShapeLogic.ShapeType.Sphere:
                     sphereIcon.material.color = tintColor;
                     break;
-                case ShapeLogic.ShapeType.Capsule:
-                    capsuleIcon.material.color = tintColor;
-                    break;
                 case ShapeLogic.ShapeType.Cylinder:
                     cylinderIcon.material.color = tintColor;
+                    break;
+                case ShapeLogic.ShapeType.Capsule:
+                    capsuleIcon.material.color = tintColor;
                     break;
             }
         }

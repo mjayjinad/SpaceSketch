@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-namespace xrc_assignments_project_g05.Scripts.System_Control
+namespace SpaceSketch.Scripts.System_Control
 {
     public class Delete_Object : MonoBehaviour
     {

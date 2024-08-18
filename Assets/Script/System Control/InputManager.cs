@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using xrc_assignments_project_g05.Scripts.System_Control;
+using SpaceSketch.Scripts.System_Control;
 
 public class InputManager : MonoBehaviour
 {

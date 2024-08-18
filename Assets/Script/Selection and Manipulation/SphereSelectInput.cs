@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 
-namespace xrc_assignments_project_g05.Scripts.Selection_and_Manipulation
+namespace SpaceSketch.Scripts.Selection_and_Manipulation
 {
     public class SphereSelectInput : MonoBehaviour
     {

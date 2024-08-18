@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-namespace xrc_assignments_project_g05.Scripts.System_Control
+namespace SpaceSketch.Scripts.System_Control
 {
     public class ShapeLogic : MonoBehaviour
     {
@@ -9,8 +9,8 @@ namespace xrc_assignments_project_g05.Scripts.System_Control
         {
             Cube,
             Sphere,
-            Capsule,
-            Cylinder
+            Cylinder,
+            Capsule
         }
 
         [SerializeField] public ShapeType selectedShape = ShapeType.Cube;
@@ -18,8 +18,8 @@ namespace xrc_assignments_project_g05.Scripts.System_Control
         // Prefabs for the shapes
         [SerializeField] private GameObject cubePrefab;
         [SerializeField] private GameObject spherePrefab;
-        [SerializeField] private GameObject capsulePrefab;
         [SerializeField] private GameObject cylinderPrefab;
+        [SerializeField] private GameObject capsulePrefab;
 
         // Reference to the feedback component
         private ShapeFeedback shapeFeedback;
@@ -57,8 +57,8 @@ namespace xrc_assignments_project_g05.Scripts.System_Control
             {
                 case ShapeType.Cube: return cubePrefab;
                 case ShapeType.Sphere: return spherePrefab;
-                case ShapeType.Capsule: return capsulePrefab;
                 case ShapeType.Cylinder: return cylinderPrefab;
+                case ShapeType.Capsule: return capsulePrefab;
                 default: return null;
             }
         }

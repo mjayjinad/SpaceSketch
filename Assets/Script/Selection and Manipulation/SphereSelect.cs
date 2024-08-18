@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
-using xrc_assignments_project_g05.Scripts.System_Control;
+using SpaceSketch.Scripts.System_Control;
 
-namespace xrc_assignments_project_g05.Scripts.Selection_and_Manipulation
+namespace SpaceSketch.Scripts.Selection_and_Manipulation
 {
     public class SphereSelect : MonoBehaviour
     {

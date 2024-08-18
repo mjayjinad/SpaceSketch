@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.Video;
 
-namespace xrc_assignments_project_g05.Scripts.System_Control
+namespace SpaceSketch.Scripts.System_Control
 {
     public class DocumentationPanelController : MonoBehaviour
     {

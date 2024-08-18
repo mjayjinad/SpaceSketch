@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
-using xrc_assignments_project_g05.Scripts.Selection_and_Manipulation;
+using SpaceSketch.Scripts.Selection_and_Manipulation;
 
 public class ObjectScaler : MonoBehaviour
 {

@@ -1,5 +1,5 @@
 {
-    "name": "DisableMultiSelect",
+    "name": "Duplicate",
     "maps": [
         {
             "name": "DuplicateObject",
@@ -19,7 +19,7 @@
                 {
                     "name": "",
                     "id": "d911f377-f585-42b3-a47e-4038b0142f6a",
-                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "path": "<OculusTouchController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

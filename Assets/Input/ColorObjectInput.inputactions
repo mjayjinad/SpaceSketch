@@ -1,5 +1,5 @@
 {
-    "name": "ResetObjectPosition",
+    "name": "ColorObjectInput",
     "maps": [
         {
             "name": "ColorObject",
@@ -19,7 +19,7 @@
                 {
                     "name": "",
                     "id": "1afd987a-a082-479a-b212-189ae9921f5e",
-                    "path": "<OculusTouchController>{LeftHand}/primaryButton",
+                    "path": "<OculusTouchController>{LeftHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
