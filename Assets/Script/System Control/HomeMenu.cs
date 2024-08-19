@@ -20,7 +20,6 @@ public class HomeMenu : MonoBehaviour
     public Button quitBtn;
 
     [Header("[Object Parameters]")]
-    public GameObject shapes;
     public GameObject settings;
     public GameObject xRRay;
     public GameObject createObject;
@@ -54,7 +53,7 @@ public class HomeMenu : MonoBehaviour
 
     public void CreateShapes()
     {
-        shapes.SetActive(true);
+        shapesMenu.SetActive(true);
         sphereSelectInput.enabled = false;
         clockUIInteractionManager.enabled = false;
         sphereInteractor.SetActive(false);

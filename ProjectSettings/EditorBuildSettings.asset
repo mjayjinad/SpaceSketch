@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Upwork.unity
-    guid: 6c0f0c260ba863942baace250c6647db
+    path: Assets/Scenes/Portfolio.unity
+    guid: 74040a2c2cfd0e243ad94d252d46a3b4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ff6a21fc85571c4468a8596f8561996e, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4db77a4795b34144e9167645f1aa32cd, type: 2}

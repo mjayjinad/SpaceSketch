@@ -60,6 +60,7 @@ public class MeshDeformer : MonoBehaviour
     {
         if (isGrabbed)
         {
+            Debug.Log(" deform");
             // Get the interactor that is currently grabbing this object
             XRBaseInteractor interactor = grabInteractable.selectingInteractor;
 

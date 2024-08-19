@@ -15,6 +15,7 @@ public class GrabMoveFeedback : MonoBehaviour
     public Canvas worldSpaceCanvas;
     public ScaleEvent OnScaleBegin;
     public ScaleEvent OnScaleEnd;
+    public int textureSize;
 
     private float maxScale = 10; // Assuming 10 is the largest scale
     private float minScale = 1f;   // Assuming 1 is the smallest scale
@@ -150,16 +151,25 @@ public class GrabMoveFeedback : MonoBehaviour
         }
 
         lineRenderer = lineRendererObject.AddComponent<LineRenderer>();
-        lineRenderer.material = new Material(Shader.Find("Unlit/Texture"));
+        lineRenderer.material = new Material(Shader.Find("Unlit/Transparent"));
 
-        // Creating a larger texture for a more pronounced dotted effect
-        int textureSize = 4; // Size of the texture (width)
+        // Create a texture with a dotted pattern
         Texture2D dottedTexture = new Texture2D(textureSize, 1);
+        dottedTexture.filterMode = FilterMode.Point;
+        Color dotColor = Color.white;
+        Color backgroundColor = new Color(0, 0, 0, 0); // Transparent background
+
         for (int i = 0; i < textureSize; i++)
         {
             // Alternate between opaque and transparent pixels
-            Color color = Color.black;
-            dottedTexture.SetPixel(i, 0, color);
+            if (i % 2 == 0) // Adjust dot frequency here
+            {
+                dottedTexture.SetPixel(i, 0, dotColor);
+            }
+            else
+            {
+                dottedTexture.SetPixel(i, 0, backgroundColor);
+            }
         }
         dottedTexture.Apply();
 
@@ -167,13 +177,13 @@ public class GrabMoveFeedback : MonoBehaviour
         lineRenderer.material.color = Color.white;
 
         // Adjust texture tiling for the dotted effect
-        float tilingFactor = 0.1f; // Adjust this value to control dot frequency
+        float tilingFactor = 0.3f; // Increase tiling factor to make dots appear smaller
         lineRenderer.material.mainTextureScale = new Vector2(tilingFactor, 1);
 
-        lineRenderer.widthMultiplier = 0.02f;
+        lineRenderer.widthMultiplier = 0.05f; // Smaller width for the line
         lineRenderer.positionCount = 2;
-        lineRenderer.startWidth = 0.01f;
-        lineRenderer.endWidth = 0.01f;
-        lineRenderer.enabled = false;
+        lineRenderer.startWidth = 0.01f; // Adjust to control the size of the dots relative to the line width
+        lineRenderer.endWidth = 0.01f;   // Adjust to control the size of the dots relative to the line width
+        lineRenderer.enabled = false; // Make sure the LineRenderer is enabled
     }
 }
