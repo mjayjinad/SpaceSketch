@@ -1134,7 +1134,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65512210}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 8344c6157692fb04298b0321d68f330a, type: 3}
+  m_VideoClip: {fileID: 0}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1156,7 +1156,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
   m_WaitForFirstFrame: 1
@@ -3478,11 +3478,11 @@ MonoBehaviour:
   swipeDuration: 0.15
   offScreenOffset: {x: 250, y: 0, z: 0}
   videoClips:
-  - {fileID: 32900000, guid: 8344c6157692fb04298b0321d68f330a, type: 3}
-  - {fileID: 32900000, guid: 8fd9e78a1bdac824ba2abc20301676d0, type: 3}
-  - {fileID: 32900000, guid: ea2b35754a2ca5946acd1ee57491e809, type: 3}
+  - {fileID: 32900000, guid: ce5a9090e89ee2e49a3c728f314618a6, type: 3}
+  - {fileID: 32900000, guid: 686ba1b3affd27c48ad9c0c3424a63ce, type: 3}
+  - {fileID: 32900000, guid: dd17833e85d5dd14f8404dca6f9fdedd, type: 3}
   videoStrings:
-  - Mesh Manipulation
+  - Create Object
   - Create Object
   - Colour Object
 --- !u!1 &561931119
@@ -6793,7 +6793,6 @@ MonoBehaviour:
   shapesBtn: {fileID: 1219382139}
   settingsBtn: {fileID: 843761075}
   quitBtn: {fileID: 2067635177}
-  settings: {fileID: 1817969615}
   xRRay: {fileID: 52195062}
   createObject: {fileID: 1658922901}
   sphereInteractor: {fileID: 1790549471}
@@ -6881,7 +6880,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151736052}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 8344c6157692fb04298b0321d68f330a, type: 3}
+  m_VideoClip: {fileID: 0}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -6903,7 +6902,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
   m_WaitForFirstFrame: 1
@@ -11001,7 +11000,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058569783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.42}
+  m_LocalPosition: {x: 0, y: 0, z: 0.753}
   m_LocalScale: {x: 0.0012950192, y: 0.0012950192, z: 0.0012950192}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -11556,13 +11555,21 @@ MonoBehaviour:
   swipeDuration: 0.15
   offScreenOffset: {x: 250, y: 0, z: 0}
   videoClips:
-  - {fileID: 32900000, guid: 8344c6157692fb04298b0321d68f330a, type: 3}
-  - {fileID: 32900000, guid: 8fd9e78a1bdac824ba2abc20301676d0, type: 3}
-  - {fileID: 32900000, guid: ea2b35754a2ca5946acd1ee57491e809, type: 3}
+  - {fileID: 32900000, guid: ce5a9090e89ee2e49a3c728f314618a6, type: 3}
+  - {fileID: 32900000, guid: 70ae9e2eff69fc64d9f62736d6892458, type: 3}
+  - {fileID: 32900000, guid: c2110052ac799974eb87add8bc5117af, type: 3}
+  - {fileID: 32900000, guid: 739b8e0da8ec4ca448a70cd161db11a7, type: 3}
+  - {fileID: 32900000, guid: dd17833e85d5dd14f8404dca6f9fdedd, type: 3}
+  - {fileID: 32900000, guid: ee0629d1095c87e44bf0ac593cfbe5dc, type: 3}
+  - {fileID: 32900000, guid: 08bf1c03d72a28e44bc3e96381c31ced, type: 3}
   videoStrings:
-  - Mesh Manipulation
+  - Select Object
   - Create Object
   - Colour Object
+  - Duplicate Object
+  - Delete Object
+  - Scale Object
+  - Mesh Manipulation
 --- !u!1 &2105107916
 GameObject:
   m_ObjectHideFlags: 0

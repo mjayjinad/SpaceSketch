@@ -43,6 +43,15 @@ public class TutorialControls : MonoBehaviour
         PreviousBtn.onClick.AddListener(() => PlayPreviousVideo());
 
         initalPosition = tvVideoPlayer.transform.localPosition;
+
+        //InitializeVideo();
+    }
+
+    private void InitializeVideo()
+    {
+        videoTxt.text = videoStrings[currentVideoIndex];
+        tvVideoPlayer.clip = videoClips[currentVideoIndex];
+        tvVideoPlayer.Play();
     }
 
     public void PlayNextVideo()

@@ -20,7 +20,6 @@ public class HomeMenu : MonoBehaviour
     public Button quitBtn;
 
     [Header("[Object Parameters]")]
-    public GameObject settings;
     public GameObject xRRay;
     public GameObject createObject;
     public GameObject sphereInteractor;
@@ -63,7 +62,7 @@ public class HomeMenu : MonoBehaviour
 
     public void SettingsPage()
     {
-        settings.SetActive(true);
+        settingPage.SetActive(true);
         xRRay.SetActive(true);
         homeMenuCanvas.SetActive(false);
     }
